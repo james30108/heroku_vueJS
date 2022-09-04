@@ -103,7 +103,13 @@
                             height="100"
                             width="100"
                         >
-                        <p v-else="item.product_image_cover != '' ">ไม่มีรูปสินค้า</p>
+                        <img 
+                            v-else="item.product_image_cover != '' "
+                            src="/assets/img/products/example_product.png"
+                            class="d-block rounded"
+                            height="100"
+                            width="100"
+                        >
                     </td>
                     <td><button @click="get_one(item.product_id)" class="bg-transparent border-0 text-primary">{{ item.product_name }}</button></td>
                     <td>{{ item.product_code }}</td>

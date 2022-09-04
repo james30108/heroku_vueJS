@@ -19,13 +19,13 @@
                 product_attribute: [],
                 sub1            : false,
                 sub2            : false,
-                image_cover     : "../../assets/img/products/example_product.png",
+                image_cover     : "/assets/img/products/example_product.png",
                 image           : [
-                    "../../assets/img/products/example_product.png",
-                    "../../assets/img/products/example_product.png",
-                    "../../assets/img/products/example_product.png",
-                    "../../assets/img/products/example_product.png",
-                    "../../assets/img/products/example_product.png",
+                    "/assets/img/products/example_product.png",
+                    "/assets/img/products/example_product.png",
+                    "/assets/img/products/example_product.png",
+                    "/assets/img/products/example_product.png",
+                    "/assets/img/products/example_product.png",
                 ]
             }
         },

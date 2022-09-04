@@ -1,0 +1,1 @@
+import{h as r}from"./http_common.5d460967.js";class u{get_all(t){return r.get("/product",{params:t})}get_form(){return r.get("/product/form")}get_one(t){return r.get(`/product/${t}`)}create(t){return r.post("/product",t)}update(t,e){return r.put(`/product/${t}`,e)}delete(t){return r.delete(`/product/${t}`)}}var c=new u;export{c as s};
